@@ -4,7 +4,7 @@ async-timeout==4.0.3
 asyncio==3.4.3
 Flask
 Inflector==3.1.0
-numpy==1.24.0
+numpy
 openpyxl==3.1.2
 pandas==2.0.3
 PyAudio==0.2.11
