@@ -17,7 +17,7 @@ import aiohttp #line:16
 auth =aiohttp .BasicAuth ('1234','API')#line:18
 base_url ='https://orva.tedcas.com/api/'#line:19
 async def buscar_faq (O0000O0OO000000OO ,O0OOO0OO0O00O00O0 ):#line:21
-    OO00O0O00OOO0O000 ="C:/Users/leire/OneDrive/Escritorio/MASTER ING. BIOMEDICA/3. CUATRI/TEDCAS/Quirohelp/preguntas_qh_tags2.xlsx"#line:22
+    OO00O0O00OOO0O000 ="preguntas_qh_tags2.xlsx"#line:22
     O00OOOO000OOO00O0 =pd .read_excel (OO00O0O00OOO0O000 ,engine ="openpyxl")#line:23
     O00000OO00000000O =0 #line:24
     OO0O0OOOO0OO00OO0 =O0000O0OO000000OO #line:25
