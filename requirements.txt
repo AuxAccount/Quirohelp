@@ -4,6 +4,7 @@ async-timeout==4.0.3
 asyncio==3.4.3
 Flask
 Flask[async]
+asgiref
 Inflector==3.1.0
 inflect
 numpy
