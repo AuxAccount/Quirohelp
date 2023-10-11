@@ -3,6 +3,7 @@ async==0.6.2
 async-timeout==4.0.3
 asyncio==3.4.3
 Flask
+Flask[async]
 Inflector==3.1.0
 inflect
 numpy
