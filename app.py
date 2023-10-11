@@ -5,7 +5,8 @@ import xlrd2 as xlrd #line:4
 import unicodedata #line:5
 import spacy #line:6
 import inflect #line:7
-nlp =spacy .load ("es_dep_news_trf")#line:8
+#nlp =spacy .load ("es_dep_news_trf")#line:8
+nlp =spacy .load ("es_core_news_sm")#line:8
 from inflector import Inflector ,Spanish #line:9
 inflector =Inflector (Spanish )#line:10
 import speech_recognition as sr #line:11
