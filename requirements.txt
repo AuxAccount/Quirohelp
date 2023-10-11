@@ -15,7 +15,7 @@ spacy-alignments==0.9.1
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 spacy-transformers==1.2.5
-SpeechRecognition==3.10.0
+SpeechRecognition
 tensorflow==2.13.1
 tensorflow-estimator>=2.13.0
 tensorflow-intel==0.0.1
