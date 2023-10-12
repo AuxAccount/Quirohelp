@@ -347,7 +347,7 @@ async def cargar_archivo (O0OOO0OOO00OOOOOO ,O0O0O0O0OOOO00000 ,OO0OO0000OOOO0O0
             return O0OO0OOO00OOO0O0O #line:366
         if len (OOOO00OO0O00OO0O0 )==0 :#line:367
              O0O0O0O0OO0O0O0O0 ="No hay archivos subidos"#line:368
-             O0OO0OOO00OOO0O0O ="http://127.0.0.1:5000/especialidad"#line:369
+             O0OO0OOO00OOO0O0O ="https://quirohelp.onrender.com/especialidad"#line:369
         elif type (OOOO00OO0O00OO0O0 )==str :#line:370
              O0OO0OOO00OOO0O0O ="https://orva.tedcas.com/"+str (OOOO00OO0O00OO0O0 )#line:371
              O0O0O0O0OO0O0O0O0 =OOOO00OO0O00OO0O0 #line:372
@@ -370,7 +370,7 @@ async def cargar_archivo_grande (OO0OOO0OOOO0000O0 ,O0OO0OOOOOO0O0OOO ,OOOOOOOO0
         OOO0O00OOOO00OO00 ="field_"+str (OO0OOO0OOOO0000O0 )#line:390
         OOO0O00OOOO00OO00 =OO00O000OOO0000OO [OOO0O00OOOO00OO00 ]#line:391
         if len (OOO0O00OOOO00OO00 )==0 :#line:392
-             OOO0O0OO0O00OO00O ["No hay archivos"]="http://127.0.0.1:5000/especialidad"#line:393
+             OOO0O0OO0O00OO00O ["No hay archivos"]="https://quirohelp.onrender.com/especialidad"#line:393
         else :#line:394
             for O00O0O0OOOO0O0O00 in OOO0O00OOOO00OO00 :#line:395
                 OOO0O0OO0O00OO00O [O00O0O0OOOO0O0O00 ['descripcion']]="https://orva.tedcas.com/"+str (O00O0O0OOOO0O0O00 ['url'])#line:396
