@@ -896,4 +896,4 @@ async def ajustes ():#line:956
     OOO0OOOOO0OOO0O00 =os .path .join (app .config ['UPLOAD_FOLDER'],'estrella.png')#line:957
     return render_template ('ajustes.html',user_image7 =OOO0OOOOO0OOO0O00 )#line:958
 if __name__ =="__main__":#line:960
-    app .run (host='0.0.0.0', port=10000, debug=True)#line:961
+    app .run ()#host='0.0.0.0', port=10000, debug=True)#line:961
